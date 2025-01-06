@@ -6,6 +6,6 @@
 
 .span-hello{
   border: 2px solid;
-  height: 100px;
-  width: 200px;
+  height: 100px;/*변환 없음*/
+  width: 200px;/*변환 없음*/
 }
