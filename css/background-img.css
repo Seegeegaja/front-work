@@ -1,0 +1,9 @@
+.container{
+  width: 300px;
+  height: 500px;
+  background: tomato;
+  background-image: url("/winter.JPG/beautiful-outdoor-nature-landscape-with-alone-tree-snow-winter-weather-season_74190-9956.avif");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
