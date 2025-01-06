@@ -1,0 +1,9 @@
+/* h1 태그에 적용하는 스타일 */
+h1 {
+  color: rgba(185, 70, 70, 0.897);
+  background-color: rgba(9, 255, 0, 0.418);
+}
+
+h4 {
+  color: blue;
+}
