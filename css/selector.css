@@ -1,0 +1,30 @@
+li {
+  color: red;
+}
+/* . 을 찍으면 클레스 이름만 적용가능 중복가능*/ 
+.orange {
+  color: orange;
+}
+.fruite {
+  font-size: 20px;
+  color: blue;
+}
+
+/*id를 지정할땐 # 중복 불가*/
+#graph{
+  font-size: 30px;
+  color: green;
+}
+/* div 밑에있는 태크를 가리킴 하위 선택자를 잡는 방법 */
+div .orange{
+  font-size: 15px;
+  color: brown;
+}
+/*마우스가 올라가면 바뀌는*/
+a:hover {
+  color: red;
+}
+/* 마우스를 누르면 바뀌는*/
+a:active {
+  color: blue;
+}
