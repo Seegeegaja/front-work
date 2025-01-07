@@ -1,0 +1,32 @@
+.main{
+  float: left;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 200px;
+}
+.main-id{
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#id-1 {
+  margin: 0px;
+  padding-top: 0;
+  font-size: 10px;
+}
+#title-id{
+  margin: 0px;
+  font-size: 13px;
+}
+#sss{
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+.imge{
+  float: left;
+  background-image: url('../img/blog_img.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
