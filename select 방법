@@ -1,0 +1,75 @@
+PS C:\$_ssege\front-work> git init // 초기화
+Reinitialized existing Git repository in C:/$_ssege/front-work/.git/
+PS C:\$_ssege\front-work> git add . //깃에 추가할 파일들
+PS C:\$_ssege\front-work> git commit -m 'first commit' 파일을 커밋 하는것 저장? 느낌
+[main (root-commit) bc90fe4] first commit
+ 4 files changed, 51 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 css/name.css
+ create mode 100644 index.html
+ create mode 100644 js/main.js
+PS C:\$_ssege\front-work> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\$_ssege\front-work> git branch -M main
+PS C:\$_ssege\front-work> git remote add origin https://github.com/Seegeegaja/front-work.git
+PS C:\$_ssege\front-work> git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.30 KiB | 445.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Seegeegaja/front-work.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
+div>ul.fruits>li*2
+>은 자식테그를 나타냄
+
+.testClass
+하면 div를 만들어줌 기본이라고는 함
+
+
+css 작업하려면
+1.html이 가지고 있는 태그 중에 내가 원하는 영역 선택
+--태그 선택자 : p, div, body 
+--클래스 선택자 : class키워드가 붙이있는
+
+2.
+
+:not(.small) *선택할수 있음*
+table plate > orange:not(.small), table plate > pickle, table plate > apple:not(.small) {
+    /* 예시 스타일 */
+    background-color: yellow;
+    border: 2px solid green;
+    font-size: 18px;
+}
+
+ul li:nth-child(3)는 ul 안의 li 항목 중 세 번째 항목(즉, "오렌지")를 선택하는 선택자야.
+
+plate applle=바로 밑에 있는 aplle를 의미
+
+orange.small = 오렌지 밑에 있는 모든 스몰
+
+plate,beto = ,로 분류해서 지정
+
+*은 와일드 카드
+
+plate + apple = +는 바로 옆에 있는 아이 select
+
+[for] = 속성값을 의미한다
+
+
+
+
+
+
+
+
+
+
+
+
