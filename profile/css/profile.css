@@ -17,7 +17,17 @@
   font-weight: 600;
 }
 
-p {
+
+.box{
   text-align: center;
-  background-color: rgba(84, 84, 182, 0.767);
+  width: 300px;
+  background-color: rgb(71, 143, 224);
+  padding: 40px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  box-shadow: 5px 5px black;
 }
