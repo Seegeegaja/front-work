@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: 800px;
+  height: 800px;
+  background-color: coral;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.left-manu {
+  width: 30%;
+  height: 70%;
+  background-color: blue;
+  float: left;
+}
+.right {
+  width: 70%;
+  height: 70%;
+  background-color: rgb(255, 0, 0);
+  float: left;
+}
+.footer {
+  clear: both;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(115, 139, 139);
+}
