@@ -1,0 +1,37 @@
+h4{
+  margin-left: 20px;
+  
+}
+.container{
+  background-color: #c2d3de;
+  width: 700px;
+  margin: 10px auto;
+}
+table {
+  margin: 10px auto;
+  border: hidden ;
+  border-radius: 20px;
+  border-color: white ;
+  background-color: white;
+  width: 600px;
+
+}
+
+
+
+th{
+  border-radius: 20px 20px 0 0;
+  border-top: none;
+  border-left: none;
+  border-bottom: 30px;
+  
+}
+.butt{
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 15px;
+  background : chocolate;
+  color: white;
+  border: hidden;
+  border-radius: 5px;
+}

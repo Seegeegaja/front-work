@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+}
+.cart-back{
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+.cart-table{
+  background-color: white;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  border-collapse: collapse;
+}
+.cart-table td, .cart-table th {
+  border-bottom: 1px solid #c2d3de;
+  padding: 15px;
+}
+.cart-table th:nth-child(2){
+  width: 400px;
+}
+.btn{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: chocolate;
+}
+.btn:focus {
+  background-color: gray;
+}
+.btn:active {
+  background-color: brown;
+}
+input:focus{
+  border-bottom: 10px solid red;
+}
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: violet;
+}
+a:visited{
+  color: black;
+}
