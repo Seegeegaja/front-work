@@ -1,0 +1,66 @@
+.container {
+  width: 500px;
+  margin: 10px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+fieldset {
+  margin-bottom: 20px;
+}
+ul li {
+  margin: 10px;
+}
+.ch {
+
+  width: 15px;
+  height: 20px;
+}
+.chT{
+  font-weight: bold;
+}
+.te {
+  float: left;
+  width: 120px;
+  line-height : 25px;
+  font-weight: bold;
+
+}
+.textT{
+  width: 70%;
+  height: 20px;
+}
+#da{
+  font-size: 15px;
+}
+.mem{
+  width: 70%;
+  height: 60px;
+}
+
+.stockS {
+  width: 15px;
+  height: 15px;
+}
+.buttons{
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.buttons input {
+  margin: 0 20px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+.buttons input:hover{
+  background-color: rgb(27, 134, 221);
+  color: #fff;
+  border-color: #fff;
+}
+
+
+
+

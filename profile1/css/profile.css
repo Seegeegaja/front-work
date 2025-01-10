@@ -1,0 +1,26 @@
+.container {
+  width: 600px;
+  height: 900px;
+  margin: 10px auto;
+
+}
+p{
+  font-size: 15px;
+}
+ul {
+  list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+fieldset { 
+  margin-bottom: 20px;
+}
+ul li {
+  margin: 20px;
+}
+.np {
+  float: left;
+  width: 120px;
+  line-height: 25px;
+  font-weight: bold;
+}
