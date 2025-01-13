@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+
+header{
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+}
+
+footer{
+  border-top: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+}
+
+.content nav{
+  border-right: solid 1px gray;
+}
+.content aside{
+  border-left: solid 1px gray;
+}
+nav, aside{
+  /* flex의 너비를 부여 */
+  flex-basis: 150px;
+  /* 영역 양보 없음 (주어진너비가 줄어들때 안줄어들기 하는것)*/
+  flex-shrink: 0;
+}
+h1{
+  column-span: all;
+}
+
+main{
+  padding: 10px;
+  column-count: 2;
+  text-align: center;
+}
