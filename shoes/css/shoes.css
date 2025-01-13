@@ -71,6 +71,7 @@
   margin: 15px auto;
   position: relative;
   bottom: 30px;
+  text-align: center;
 }
 .explain-box::first-letter{
   color: red;
@@ -122,3 +123,45 @@ div ,input, textarea {
   
   background-color: yellow;
 }
+.product-container{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.product-container div{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+
+@media screen and (max-width:1200px){
+/* 화면의 크기가 1200px 이하일때 적용할 css를 기술 */
+/* 테블릿 사이즈 */
+  .main-title{
+    font-size: 30px;
+  }
+  .product-container div{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:768px){
+  /* 화면의 크기가 1200px 이하일때 적용할 css를 기술 */
+  /* 모바일 사이즈 */
+    .main-title{
+      font-size: 20px;
+    }
+    .product-container div{
+      width: 100%;
+    }
+}
+/* @media screen and (max-width:576px){
+  /* 화면의 크기가 1200px 이하일때 적용할 css를 기술 */
+    /* .main-title{
+      font-size: 10px;
+    }
+  }
+   */ 
