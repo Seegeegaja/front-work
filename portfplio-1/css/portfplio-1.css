@@ -1,0 +1,215 @@
+.title-background{
+  background: linear-gradient(rgb(94, 94, 250) ,purple );
+  margin: 5px auto;
+  background-repeat: no-repeat;
+  
+
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left-title{
+  width: 300px;
+  height: 300px;
+  color: white;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 5;
+}
+
+.left-title h1{
+  font-weight: 500;
+}
+.left-title p{
+  margin-top: 30px;
+  font-size: 13px;
+}
+.left-title button{
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  background-color: #333D51;
+}
+.right-title{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 5;
+  display: flex;
+
+}
+
+.phone{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 300px;
+}
+.too-floor{
+ background-color: white;
+ margin-top: 0px;
+ text-align: center;
+ margin-top: 50px;
+}
+.too-floor div h4{
+  font-size: 20px;
+  color: black;
+}
+.too-floor button{
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 5px;
+  color: white;
+  background-color: #333D51;
+
+}
+.manu-title{
+  background: linear-gradient(rgb(94, 94, 250) ,purple);
+  width: 100%;
+  margin: 50px auto;
+}
+.manu-title h5,h4{
+  text-align: center;
+  color: white;
+}
+.manu-title h5{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.manu-title h4{
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 25px;
+}
+.munu-container{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.munu-container div{
+  width: 25%;
+  text-align: center;
+}
+.munu-container i {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.munu-container h3{
+  color: white;
+  margin-bottom: 0px;
+}
+.munu-container p{
+  font-size: 10px;
+  color: white;
+}
+.third-floor{
+  text-align: center;
+}
+
+.img-container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+.img-container div{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.img h2,p{
+  color: white;
+}
+
+.img-1{
+  background-image: url('../img/portfolio-1.jpg');  
+}
+.img-2{
+  background-image: url('../img/portfolio-2.jpg');
+ 
+}
+.img-3{
+  background-image: url('../img/portfolio-3.jpg');
+ 
+}
+.img-4{
+  background-image: url('../img/portfolio-4.jpg');
+  
+}
+.hub-container{
+  text-align: center;
+  margin-top: 40px;
+}
+.hub-container i{
+  background-color: rgb(111, 111, 235);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  color: white;
+  padding: 25px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pte{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.img-1:hover{
+  transform: scale(0.8);
+  transition: 1s;
+}
+.img-2:hover{
+  transform: scale(0.8);
+  transition: 1s;
+}
+.img-3:hover{
+  transform: scale(0.8);
+  transition: 1s;
+}
+.img-4:hover{
+  transform: scale(0.8);
+  transition: 1s;
+}
+
+@media screen and (max-width: 1200px){
+  .main{
+    flex-direction: column;
+    align-items: center;
+  }
+}
